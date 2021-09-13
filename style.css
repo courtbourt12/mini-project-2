@@ -1,0 +1,57 @@
+:root {
+    --header:#DF73E2;
+    --header:bolder;
+}
+
+main div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card {
+
+    
+    padding: 10px;
+    height: 400px;
+    width: 500px;
+    text-align: center;
+    border-style: dashed;
+    border-width: 1px;
+    border-color: white;
+}
+
+.card header {
+    padding: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    color: #DF73E2;
+    border-color: white;
+    border-radius: 10px;
+    border-width: 1px;
+    border-style: solid;
+    margin-right: 50px;
+    margin-left: 50px;
+  
+}
+
+ul {
+    background-color: #DF73E2;
+    
+    padding: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: 100px;
+    border-style: solid;
+    border-color:#DF73E2;
+    border-radius: 20px;
+}
+
+h1 {
+    font-size: 50px;
+    color: #DF73E2;
+    font-style: bolder;
+}
+
+header p {
+    color: white;
+}
